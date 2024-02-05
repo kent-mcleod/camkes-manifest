@@ -31,7 +31,7 @@
     <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
     <project name="lwip.git" path="projects/lwip" remote="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
     <project name="rumprun.git" path="tools/rumprun"/>
-    <project name="global-components.git" path="projects/global-components"/>
+    <project name="global-components.git" remote="kent" revision="kent/multicore2" path="projects/global-components"/>
     <project name="camkes.git" remote="kent" revision="kent/multicore2" path="projects/camkes">
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
